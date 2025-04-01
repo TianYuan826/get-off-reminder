@@ -1,11 +1,10 @@
-import Link from "next/link";
-
 import PlaceholderContent from "@/components/demo/placeholder-content";
 import { ContentLayout } from "@/components/admin-panel/content-layout";
 
+// スター付きのページ
 export default function StarredPage() {
   return (
-    <ContentLayout title="スター付き">
+    <ContentLayout>
       <PlaceholderContent />
     </ContentLayout>
   );
