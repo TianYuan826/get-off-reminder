@@ -1,7 +1,7 @@
 "use client";
 
-import ExamInfoContent from "@/components/demo/exam-info";
+import HomePageContent from "@/components/demo/homepage-content";
 
 export default function ExamInfoPage() {
-  return <ExamInfoContent />;
+  return <HomePageContent />;
 }

@@ -1,8 +1,8 @@
 "use client";
 
-import { Footer } from "@/components/panel/Footer";
+import { Footer } from "@/components/demo/Footer";
+import { Header } from "@/components/demo/Header";
 import { cn } from "@/lib/utils";
-import { Header } from "@/components/panel/Header";
 
 export default function DemoLayout({
   children,
@@ -26,7 +26,7 @@ export default function DemoLayout({
       </main>
 
       {/* 底部 Footer */}
-      <footer className={cn("sticky bottom-0 z-50")}>
+      <footer className={"sticky bottom-0 z-50"}>
         <Footer />
       </footer>
     </div>
